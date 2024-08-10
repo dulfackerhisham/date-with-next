@@ -4,3 +4,7 @@ export async function GET() {
         {director: "shamil"}
     ])
 };
+
+export async function POST() {
+    return Response.json({message: "POST success"})
+}
